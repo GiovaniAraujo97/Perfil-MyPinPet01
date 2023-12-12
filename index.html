@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+
+    <title>Perfil Virtual</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="a" class="logo"><span>My</span>Pin<span>Pet</span></a>
+            <ul class="nav-menu">
+                <li class="nav-item"> <a href="#home">Inicio</a></li>
+                <li class="nav-item"> <a href="#infos">Informações</a></li>
+                <li class="nav-item"> <a href="#contato">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="home">
+            <div class="text">
+                <h3>Olá, amigos humanos <br> carinhosos!</h3>
+
+                <h4><br> Eu sou o <span>TOMMY</span>, 
+                    e agora tenho meu próprio cantinho na web graças à MyPinPet. <br> 
+                    Venha explorar o meu mundo e compartilhar as alegrias da vida 
+                    de quatro patas!</h4>
+            <div class="contato-btn">
+                <a class="btn" href="#">Contato</a>
+            </div>        
+            </div>
+            <div>
+                <img class="img" src="perfil-tommy.png" style="width: 300px;">
+            </div>
+        </div>
+    </section>
+
+    <section class="infos">
+        <div class="info-tab">
+            <h2 class="titulo">Informações Sobre Mim</h2>
+            <div class="tabela">
+                <div class="conteudo">
+                    <div class="info-esquerda">
+                        <p> Nome: </p>
+                        <p> Idade:</p>
+                        <p> Peso:</p>
+                        <p> Raça:</p>
+                        <p> Brinquedo Preferido: </p>
+                        <p> Comida favorita: </p>
+                        <p>Castração:</p>
+                    </div>
+                    <div class="info-direita">
+                        <p> Tommy</p>
+                        <p> 1 Ano</p>
+                        <p>3.2kg</p>
+                        <p> Bull-Dog Francês</p>
+                        <p> Bola</p>
+                        <p> Biscoitos</p>
+                        <p>Não</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="contato">
+            <div class="text-contato">
+                <h3>Olá, humano bondoso!</h3>
+
+                <h4><br> Se você me encontrou e está lendo isso, é porque me perdi do meu melhor amigo. Mas não se preocupe, <br> todas as informações necessárias para me devolver ao meu lar estão aqui. Conto com sua ajuda!"</h4>  
+            </div>
+            <div class="contatos">
+                <div class="icons" id="whats" onclick="openWhatsApp()">
+                    <img src="contato-whats.png" alt="Whats Icon" style="width: 65px;">
+                </div>
+                <div class="icons" id="insta" onclick="openInsta()">
+                    <img src="contato-insta.png" alt="Insta Icon" style="width: 90px;">
+                </div>
+                <div class="icons" id="email" onclick="openEmail()">
+                    <img src="contato-email.png" alt="Email Icon" style="width: 60px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
